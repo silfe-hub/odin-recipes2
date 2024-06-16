@@ -57,3 +57,18 @@ a.small {
     color: black;
 }
 
+.recipe-images {
+    width: 400px;
+    height: 400px;
+    padding-right: 100px;
+}
+
+.description-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-description-container {
+    display: flex;
+    flex-direction: column;
+}
