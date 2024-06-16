@@ -1,5 +1,6 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
 }
 h1 {
     text-align: center;
@@ -44,12 +45,6 @@ a {
     align-items: center;
 }
 
-small.no-decorations {
-    display: flex;
-    float: left;
-    text-decoration: none;
-}
-
 .front-images.small {
     width: 100px;
     height: 100px;
@@ -61,6 +56,13 @@ a.small {
     font-size: 10px;
     text-decoration: none;
     color: black;
+}
+
+a.small.link {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
 }
 
 .recipe-images {
