@@ -3,3 +3,8 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 80px;
 }
+
+.front-images {
+    width: 300px;
+    height: auto;
+}
