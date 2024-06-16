@@ -4,7 +4,32 @@ h1 {
     font-size: 80px;
 }
 
+li {
+    display: flex;
+    float: left;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    padding-left: 50px;
+}
+
+a {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .front-images {
     width: 300px;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
 }
